@@ -1,0 +1,14 @@
+*{
+    margin:0px;
+    padding: 0px;
+    
+}
+header{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+section{
+    margin-left: 5%;
+    margin-right: 5%;
+}

@@ -1,0 +1,96 @@
+
+*{
+	font-family: verdana;
+	
+}
+
+body{
+	margin: 0; padding: 0; 
+	width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0; padding: 0;
+}
+
+header h4{
+	text-align: center;
+	padding: 2%;
+	color: #000;
+	background-color: #595959;
+	margin-bottom: 1%;
+}
+nav {
+	background-color: #595959;
+	width: 100%;
+}
+nav ul {
+	display: flex;
+	justify-content:space-around;
+	list-style-type: none;
+	padding: 0;
+}
+nav ul a {
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+
+}
+nav a:hover{
+	background-color: #fe9d2a;
+	transition: 0.8s all;
+	color:black;
+	
+}
+	
+
+
+
+#forcv{
+	display: flex; flex-direction: row;
+	color: white;  
+}
+
+#first{
+	width: 50%;
+	text-align: left;
+	border: 2px solid red;
+	padding: 2%;
+	margin-right: 5px;
+	margin-left: 5px;
+	box-shadow: 3px 3px red;
+	border-radius: 10px 0px 10px 0px;
+}
+
+#second{
+	width: 50%;
+	text-align: center;
+	border: 2px solid red;
+	padding: 2%;
+	margin-right: 5px;
+	box-shadow: 3px 3px red;
+	border-radius: 10px 0px 10px 0px;
+
+}
+
+#second h3{
+	text-shadow: 1px 1px black;
+	
+}
+
+#second img{
+	width: 50%; height: 80%;
+	border-radius: 50%;
+}
+
+footer h5{
+	text-align: center;
+	padding: 2%;
+	background-color: #222222;
+	margin-top: 1%;
+	color: white;
+}
